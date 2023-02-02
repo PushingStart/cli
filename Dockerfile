@@ -1,6 +1,6 @@
 ###############################################################################
 # Step 1 : Builder image
-FROM kubevious/node-builder:14
+FROM kubevious/node-builder:14@sha256:f43fa889883437cf417ea3defe207c51e584097744c4e7e44bc453853af33cda
 RUN node --version
 RUN npm --version
 RUN yarn --version
